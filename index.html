@@ -1,0 +1,13 @@
+<title>Steak Night</title>
+<meta charset=utf8>
+<link rel=stylesheet type=text/css href=index.css>
+
+<article id=rules></article>
+
+<script src=//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js></script>
+<script src=js/marked.js></script>
+<script>
+    $.getJSON("https://api.github.com/repos/Steak-Night/Rules/contents/README.md").done(function (md) {
+        $("#rules").html(marked(atob(md.content)));
+    });
+</script>

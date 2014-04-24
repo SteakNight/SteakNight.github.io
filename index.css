@@ -1,0 +1,8 @@
+body {
+    background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+    background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+}
