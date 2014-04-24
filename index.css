@@ -6,3 +6,9 @@ body {
     font-family: "Helvetica Neue", sans-serif;
     text-align: center;
 }
+.hidden {
+    opacity: 0;
+}
+.animated {
+    transition: all 1s;
+}
